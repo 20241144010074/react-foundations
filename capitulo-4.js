@@ -70,3 +70,31 @@ console.log(dobrados);
 const maioresQueDois = numeros.filter((numero) => numero > 2);
 
 console.log(maioresQueDois);
+
+
+// ========================================
+// DESESTRUTURAÇÃO
+// ========================================
+
+// Desestruturação de objeto
+const pessoa = {
+    nome: "João",
+    idade: 25,
+    cidade: "Rio de Janeiro"
+};
+
+const { nome, idade, cidade } = pessoa;
+
+console.log(nome);
+console.log(idade);
+console.log(cidade);
+
+
+// Desestruturação de array
+const cores = ["vermelho", "azul", "verde"];
+
+const [primeiraCor, segundaCor, terceiraCor] = cores;
+
+console.log(primeiraCor);
+console.log(segundaCor);
+console.log(terceiraCor);
