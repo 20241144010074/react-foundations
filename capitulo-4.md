@@ -47,3 +47,28 @@ O React foi utilizado para renderizar:
 Develop. Preview. Ship.
 
 O resultado foi exibido corretamente no navegador.
+
+## JavaScript essencial para React
+
+Alguns conceitos importantes de JavaScript ajudam a entender e utilizar o React.
+
+Entre eles estão:
+
+- Funções e funções de seta
+- Objetos
+- Arrays e métodos de arrays
+- Desestruturação
+- Template literals
+- Operador ternário
+- Módulos ES e sintaxe de importação e exportação
+
+## Funções
+
+Funções são blocos de código que podem ser reutilizados para realizar uma tarefa.
+
+### Função tradicional
+
+```javascript
+function saudacao(nome) {
+    return `Olá, ${nome}!`;
+}
