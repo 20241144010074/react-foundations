@@ -98,3 +98,15 @@ const [primeiraCor, segundaCor, terceiraCor] = cores;
 console.log(primeiraCor);
 console.log(segundaCor);
 console.log(terceiraCor);
+
+
+// ========================================
+// TEMPLATE LITERALS
+// ========================================
+
+const nomeAluno = "Maria";
+const curso = "React";
+
+const mensagem = `Olá, ${nomeAluno}! Você está estudando ${curso}.`;
+
+console.log(mensagem);
