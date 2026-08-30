@@ -40,14 +40,6 @@ Com JavaScript tradicional, é necessário criar e modificar elementos do DOM ma
 
 Com React, podemos descrever a interface de forma mais simples usando JSX.
 
-## Exemplo utilizado
-
-O React foi utilizado para renderizar:
-
-Develop. Preview. Ship.
-
-O resultado foi exibido corretamente no navegador.
-
 ## JavaScript essencial para React
 
 Alguns conceitos importantes de JavaScript ajudam a entender e utilizar o React.
