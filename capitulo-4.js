@@ -4,21 +4,18 @@
 // FUNÇÕES
 // ========================================
 
-// Função tradicional
 function saudacao(nome) {
     return `Olá, ${nome}!`;
 }
 
 console.log(saudacao("React"));
 
-// Função de seta
 const despedida = (nome) => {
     return `Até mais, ${nome}!`;
 };
 
 console.log(despedida("React"));
 
-// Função de seta simplificada
 const dobro = (numero) => numero * 2;
 
 console.log(dobro(5));
@@ -46,7 +43,6 @@ console.log(usuario.cidade);
 const frutas = ["maçã", "banana", "laranja"];
 
 console.log(frutas);
-
 console.log(frutas[0]);
 console.log(frutas[1]);
 console.log(frutas[2]);
@@ -76,7 +72,6 @@ console.log(maioresQueDois);
 // DESESTRUTURAÇÃO
 // ========================================
 
-// Desestruturação de objeto
 const pessoa = {
     nome: "João",
     idade: 25,
@@ -90,7 +85,6 @@ console.log(idade);
 console.log(cidade);
 
 
-// Desestruturação de array
 const cores = ["vermelho", "azul", "verde"];
 
 const [primeiraCor, segundaCor, terceiraCor] = cores;
@@ -110,3 +104,14 @@ const curso = "React";
 const mensagem = `Olá, ${nomeAluno}! Você está estudando ${curso}.`;
 
 console.log(mensagem);
+
+
+// ========================================
+// OPERADOR TERNÁRIO
+// ========================================
+
+const idadeAluno = 20;
+
+const situacao = idadeAluno >= 18 ? "Maior de idade" : "Menor de idade";
+
+console.log(situacao);
