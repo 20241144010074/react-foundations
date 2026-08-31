@@ -3,15 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capítulo 5 - Building UI with Components</title>
+    <title>Capítulo 5 - React Components</title>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
+
 <body>
 
-    <h1>Construindo UI com Componentes</h1>
+    <div id="app"></div>
 
-    <div id="root"></div>
+    <script type="text/babel">
 
-    <script src="capitulo-5.js"></script>
+        function Header() {
+            return <h1>Develop. Preview. Ship.</h1>;
+        }
+
+        function HomePage() {
+            return (
+                <div>
+                    <Header />
+                </div>
+            );
+        }
+
+        const domNode = document.getElementById('app');
+        const root = ReactDOM.createRoot(domNode);
+
+        root.render(<HomePage />);
+
+    </script>
 
 </body>
 </html>
